@@ -158,7 +158,7 @@ public class BootStrap extends ClassInfoLoader {
     }
 
     private String classNameToPath(String name) {
-        String path = name.replace(".", File.separator);
+        String path = name.replace(".", "/");
         return path + ".class";
     }
 
